@@ -1,0 +1,143 @@
+/*BASICS-----*/
+
+	table{
+		background-color: #778899;
+		box-sizing: border-box;
+
+		width: 100%;
+		max-width: 100%;
+		padding: 1.5vh;
+		border: none;
+
+	}
+
+	body{
+		box-sizing: border-box;
+		background-color: #F1F1F1;
+	}
+
+	a{
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	h1{
+		
+		font-family: 'Oswald', sans-serif;
+		font-size: 500%;
+		text-align: center;
+		margin-top: 20vh;
+	}
+
+	h2{
+
+	font-size: 200%;
+	text-align: center;
+	margin-top: -10vh;
+	}
+	.menusor{
+		display: inline-block;
+	}
+
+	* {
+	  box-sizing: border-box;
+	}
+
+
+/*KEZDŐLAP--*/
+
+	.menuk {
+	  width: 200px;
+	  height: 200px;
+	  line-height: 200px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  color: white;
+	  text-align: center;
+	  background: black;
+	  margin-left: 15vh;
+		margin-top: 10vh;
+		margin-bottom: 5vh;
+		display: inline-block;
+	}
+
+	.menuk:hover{
+	  background: LightSlateGrey;
+	  display: inline-block;
+	}
+
+	.negyfo{
+		color: white;
+		font-size: 20px;
+	}
+
+/*---KAPCSOLAT----*/
+
+	.kapcsolat{
+		width: 90vh;
+		max-width: 90%;
+		background-color: lightgrey;
+		
+		margin-top: 7vh;
+		padding: 5vh;
+		height: 80vh;
+		border-radius: 5px;
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
+/*---ROLAM----*/
+
+
+	.kartya {
+	   width: 80vh;
+	   max-width: 80%;
+		background-color: lightgrey;
+		margin: 10vh;
+		padding: 5vh;
+		height: 80vh;
+		border-radius: 5px;
+		display: inline-block;
+	    overflow: hidden;
+	}
+
+	.portre{
+			max-width: 50%; 
+			margin: 6vh;
+
+			border-color: black;
+			border-width: 1px;
+		}
+
+/*---DOKUMENTÁCIÓ----*/
+
+	.szoveg{
+		font-size: 120%;
+		display: inline-block;
+	    
+	    margin: 5rem;
+	    margin-left: 20rem;
+		text-align: left;
+	    width: 60%;
+	    height: 30rem;
+	    margin-bottom: -20rem;
+	}
+
+	.hatter{
+		display: inline-block;
+		border: 2px solid grey;
+		margin-left: 15vh;
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		padding: 2vh;
+		background-color: lightgrey;
+		border-radius: 2rem;
+		max-width: 40%;
+
+	}
+
